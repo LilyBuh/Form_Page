@@ -14,7 +14,7 @@
 @media screen and  (max-width:768px){
     
     .container{
-        width: 90%;
+        width: 100%;
         height: auto;
     }
     .form-input{
@@ -26,8 +26,11 @@
     .form-radio{
         margin-top: 80px;
     }
+    .input-radio label{
+        font-size: 10px;
+    }
     .continue {
-        width: 400px;
+        width: 350px;
         height: 40px;
     }
 }
