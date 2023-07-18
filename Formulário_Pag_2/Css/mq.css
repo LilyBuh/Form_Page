@@ -1,0 +1,43 @@
+@media (max-width:1200px){
+
+    .imagem{
+        display: flex;
+    }
+
+    main{
+        width: 80%;
+    }
+
+    .title h1{
+        font-size: 30px;
+    }
+
+    form{
+        min-width: 90%;
+        min-height: 90%;
+    }
+    form h1{
+        font-size: 30px;
+    }
+
+    .input-login{
+        margin: 1px 0;
+        
+    }
+    .input-login label{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:800px){
+    .box-left{
+        display: none;
+    }
+    main{
+        height: 90%;
+    }
+.box-right{
+    width: 100%;
+}
+    
+}
